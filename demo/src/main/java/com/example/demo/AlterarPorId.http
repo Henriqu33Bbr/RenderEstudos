@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/AlterarTransacaoPorId/3
+Content-Type: application/json
+
+{
+  "descricao": "teste",
+  "valor": 200.50,
+  "tipo_transacao": "teste"
+}

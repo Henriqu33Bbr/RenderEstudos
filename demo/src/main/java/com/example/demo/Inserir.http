@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/inserir
+Content-Type: application/json
+
+{
+  "descricao": "teste",
+  "valor": 100.20,
+  "data_transacao": "2023-09-19",
+  "tipo_transacao": "teste"
+}
